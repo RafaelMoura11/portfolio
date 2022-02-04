@@ -39,3 +39,33 @@
 	height: 3px;
 	border-radius: 50%;
 }
+
+#footer{
+  background-color: #6c757d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+}
+
+#contact{
+  width: inherit;
+  height: 5vw;
+  background-color: aliceblue;
+  border-radius: 10%;
+}
+
+
+@media ( max-width: 700px ) {
+  #contact {
+    width: inherit;
+    height: 40px;
+  }
+}
+
+#email {
+  color:aliceblue;
+  font-size:xx-large;
+  font-weight: 900;
+}
