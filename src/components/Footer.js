@@ -4,7 +4,7 @@ import githubIcon from '../images/github.svg'
 
 export default function Footer() {
   return (
-    <footer className="container-fluid" id="footer">
+    <footer id="footer">
       <a href="https://www.linkedin.com/in/rafael-rmoura/" >
         <img src={ linkedinIcon } alt="linkedInIcon" id="contact" />
       </a>
