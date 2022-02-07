@@ -1,3 +1,13 @@
+import javascript from '../images/javascript.png'
+import html from '../images/html.svg.png'
+import css from '../images/css.png'
+import react from '../images/react.png'
+import redux from '../images/redux.png'
+import linux from '../images/linux.png'
+import jest from '../images/jest.png'
+import rtl from '../images/rtl.png'
+import github from '../images/github.svg'
+
 const MY_DATA = {
   portuguese: {
     about: {
@@ -10,37 +20,47 @@ const MY_DATA = {
       {
         tech: 'JavaScript',
         description: 'Linguagem de programação muito utilizada no desenvolvimento web',
-        image: '',
+        image: javascript,
       },
       {
         tech: 'HTML',
         description: 'Linguagem de marcação de texto',
-        image: '',
+        image: html,
       },
       {
         tech: 'CSS',
         description: 'Linguagem de estilização',
-        image: '',
+        image: css,
       },
       {
         tech: 'React',
         description: 'Biblioteca para criação de interface de usuário',
-        image: '',
+        image: react,
       },
       {
         tech: 'Redux',
         description: 'Ferramenta de controle de estado de aplicações',
-        image: '',
+        image: redux,
       },
       {
         tech: 'Linux',
         description: 'Sistema Operacional',
-        image: '',
+        image: linux,
       },
       {
-        tech: '',
-        description: '',
-        image: '',
+        tech: 'Jest',
+        description: 'Ferramenta de testes unitários',
+        image: jest,
+      },
+      {
+        tech: 'RTL',
+        description: 'Ferramenta de testes unitários em aplicações feitas no React',
+        image: rtl,
+      },
+      {
+        tech: 'GitHub',
+        description: 'GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão',
+        image: github,
       }
     ]
   }
