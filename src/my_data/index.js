@@ -7,6 +7,8 @@ import linux from '../images/linux.png'
 import jest from '../images/jest.png'
 import rtl from '../images/rtl.png'
 import github from '../images/github.svg'
+import recipeapp from '../images/recipe-app.png'
+import triviagame from '../images/trivia-game.png'
 
 const MY_DATA = {
   portuguese: {
@@ -61,6 +63,23 @@ const MY_DATA = {
         tech: 'GitHub',
         description: 'GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão',
         image: github,
+      }
+    ],
+
+    projects: [
+      {
+        name: 'Jogo de Trivia',
+        image: triviagame,
+        description: 'É um projeto realizado em grupo em que fizemos um jogo de Trivia',
+        github: 'https://github.com/RafaelMoura11/project-trivia',
+        deploy: 'https://the-trivia-game.vercel.app/'
+      },
+      {
+        name: 'App de Receitas',
+        image: recipeapp,
+        description: 'É um projeto realizado em grupo em que fizemos um App de Receitas',
+        github: 'git@github.com:RafaelMoura11/recipe-app.git',
+        deploy: 'https://recipe-app-ecru.vercel.app/'
       }
     ]
   }

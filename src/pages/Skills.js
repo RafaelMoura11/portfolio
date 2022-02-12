@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import SkillContainer from '../components/SkillContainer';
 
 export default function Skills (){
@@ -7,6 +8,7 @@ export default function Skills (){
     <div>
       <Header />
       <SkillContainer />
+      <Footer />
     </div>
   )
 };
