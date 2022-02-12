@@ -9,7 +9,7 @@ export default function Home (){
       <main id="main-content-home">
         <h1>Rafael Moura</h1>
         <h3>Front-End Developer</h3>
-        <h5>Fascinado em aprender</h5>
+        <h5>Estou aqui para aprender</h5>
       </main>
       <Footer />
     </div>
