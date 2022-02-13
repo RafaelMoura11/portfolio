@@ -5,12 +5,12 @@ import githubIcon from '../images/github.svg'
 export default function Footer() {
   return (
     <footer id="footer">
-      <a href="https://www.linkedin.com/in/rafael-rmoura/" >
-        <img src={ linkedinIcon } alt="linkedInIcon" id="contact" />
+      <a href="https://www.linkedin.com/in/rafael-rmoura/" className="background-contact">
+        <img src={ linkedinIcon } alt="linkedInIcon" className="contact" />
       </a>
-      <p id="email">rafaelmoura7033@gmail</p>
-      <a href="https://github.com/RafaelMoura11" >
-        <img src={ githubIcon } alt="githubIcon" id="contact" />
+      <h4 id="email">rafaelmoura7033@gmail.com</h4>
+      <a href="https://github.com/RafaelMoura11" className="background-contact">
+        <img src={ githubIcon } alt="githubIcon" className="contact" />
       </a>
     </footer>
   )

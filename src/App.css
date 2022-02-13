@@ -86,8 +86,16 @@
   background-color: #6c757d;
 }
 
-#contact{
-  width: 5vw;
+.contact{
+  width: 10vh;
+  height: 10vh;
+}
+
+.background-contact {
+  width: 10vh;
+  height: 10vh;
+  background-color: white;
+  border-radius: 50%;
 }
 
 @media ( max-width: 1000px ) {
@@ -96,12 +104,21 @@
     padding: 0;
     text-align: center;
   }
-
-  #contact{
-    width: 50px;
-  }
 }
 
+#email {
+  color:aliceblue;
+  font-size: 100%;
+  font-weight: 900;
+}
+
+@media ( max-width: 400px) {
+  #email {
+    color:aliceblue;
+    font-size: 80%;
+    font-weight: 900;
+  }
+}
 
 
 #about-text p {
@@ -109,11 +126,6 @@
 }
 
 
-#email {
-  color:aliceblue;
-  font-size:100%;
-  font-weight: 900;
-}
 
 .card {
   width: 18rem;
@@ -135,6 +147,7 @@
   background-color: darkgray;
   border-radius: 10%;
   margin: 10px;
+  border-color: darkgray;
 }
 
 .card-title {
