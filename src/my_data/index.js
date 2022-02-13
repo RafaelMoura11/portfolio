@@ -78,7 +78,7 @@ const MY_DATA = {
         name: 'App de Receitas',
         image: recipeapp,
         description: 'É um projeto realizado em grupo em que fizemos um App de Receitas',
-        github: 'git@github.com:RafaelMoura11/recipe-app.git',
+        github: 'https://github.com/RafaelMoura11/recipe-app',
         deploy: 'https://recipe-app-ecru.vercel.app/'
       }
     ]
