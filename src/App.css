@@ -119,7 +119,6 @@
   width: 18rem;
   margin: 10px;
   background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 #card-img {
@@ -128,13 +127,31 @@
   margin: 0 auto;
   background-color: white;
   border-radius: 10%;
+  border-style: groove;
+}
+
+.card-body {
+  border-style: ridge;
+  background-color: darkgray;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.card-title {
+  font-weight: 800;
+}
+
+.card-text {
+  font-family: monospace;
 }
 
 .project-card-button {
   display: flex;
   justify-content: space-around;
+  margin-bottom: inherit;
 }
 
 .project-card-button a {
   text-align: center;
+  width: 30%;
 }
