@@ -1,15 +1,14 @@
 import React, { useContext } from 'react';
 import Header from '../components/Header';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 import MyContext from '../context/MyContext';
 import MY_DATA from '../my_data';
 import Eu from '../images/Eu.jpeg'
 
 export default function About (){
   const { language } = useContext(MyContext);
-  // console.log(language)
   return (
-    <div id="about">
+    <div>
       <Header />
       <div id="main-content-about">
         <img src={ Eu } alt="eu" id="eu" />
@@ -21,6 +20,7 @@ export default function About (){
           <p>{ MY_DATA[language].about.formation }</p>
         </div>
       </div>
+      <Footer />
     </div>
   )
 };

@@ -46,8 +46,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main-content-skills {
@@ -76,6 +78,7 @@
   width: 300px;
   border-radius: 50%;
   margin-bottom: 10vh;
+  border-style: outset;
 }
 
 
@@ -84,6 +87,11 @@
   padding: 0;
   text-align: center;
   background-color: #6c757d;
+  font-family: monospace;
+  font-weight: 600;
+  font-style: oblique;
+  border-radius: 3%;
+  padding: 10px;
 }
 
 .contact{
