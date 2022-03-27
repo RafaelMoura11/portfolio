@@ -9,6 +9,10 @@ import rtl from '../images/rtl.png'
 import github from '../images/github.svg'
 import recipeapp from '../images/recipe-app.png'
 import triviagame from '../images/trivia-game.png'
+import docker from '../images/docker.png'
+import node from '../images/node.png'
+import mysql from '../images/mysql.png'
+import heroku from '../images/heroku.png'
 
 const MY_DATA = {
   portuguese: {
@@ -63,6 +67,26 @@ const MY_DATA = {
         tech: 'GitHub',
         description: 'GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão',
         image: github,
+      },
+      {
+        tech: 'Docker',
+        description: 'O Docker é uma ferramenta de entrega de Software por meio de pacotes chamados containers',
+        image: docker
+      },
+      {
+        tech: 'NodeJS',
+        description: 'NodeJS é um software que permite a execução de códigos JavaScript fora de um navegador web',
+        image: node
+      },
+      {
+        tech: 'MySQL',
+        description: 'É um sistema de gerenciamento de banco de dados relacional',
+        image: mysql
+      },
+      {
+        tech: 'Heroku',
+        description: 'Plataforma de nuvem para fazer deploy de softwares',
+        image: heroku
       }
     ],
 
