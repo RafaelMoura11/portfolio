@@ -1,18 +1,4 @@
-import javascript from '../images/javascript.png'
-import html from '../images/html.svg.png'
-import css from '../images/css.png'
-import react from '../images/react.png'
-import redux from '../images/redux.png'
-import linux from '../images/linux.png'
-import jest from '../images/jest.png'
-import rtl from '../images/rtl.png'
-import github from '../images/github.svg'
-import recipeapp from '../images/recipe-app.png'
-import triviagame from '../images/trivia-game.png'
-import docker from '../images/docker.png'
-import node from '../images/node.png'
-import mysql from '../images/mysql.png'
-import heroku from '../images/heroku.png'
+import images from "../images";
 
 const MY_DATA = {
   portuguese: {
@@ -26,81 +12,86 @@ const MY_DATA = {
       {
         tech: 'JavaScript',
         description: 'Linguagem de programação muito utilizada no desenvolvimento web',
-        image: javascript,
+        image: images.javascript,
       },
       {
         tech: 'HTML',
         description: 'Linguagem de marcação de texto',
-        image: html,
+        image: images.html,
       },
       {
         tech: 'CSS',
         description: 'Linguagem de estilização',
-        image: css,
+        image: images.css,
       },
       {
         tech: 'React',
         description: 'Biblioteca para criação de interface de usuário',
-        image: react,
+        image: images.react,
       },
       {
         tech: 'Redux',
         description: 'Ferramenta de controle de estado de aplicações',
-        image: redux,
+        image: images.redux,
       },
       {
         tech: 'Linux',
         description: 'Sistema Operacional',
-        image: linux,
+        image: images.linux,
       },
       {
         tech: 'Jest',
         description: 'Ferramenta de testes unitários',
-        image: jest,
+        image: images.jest,
       },
       {
         tech: 'RTL',
         description: 'Ferramenta de testes unitários em aplicações feitas no React',
-        image: rtl,
+        image: images.rtl,
       },
       {
         tech: 'GitHub',
         description: 'GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão',
-        image: github,
+        image: images.github,
       },
       {
         tech: 'Docker',
         description: 'O Docker é uma ferramenta de entrega de Software por meio de pacotes chamados containers',
-        image: docker
+        image: images.docker
       },
       {
         tech: 'NodeJS',
         description: 'NodeJS é um software que permite a execução de códigos JavaScript fora de um navegador web',
-        image: node
+        image: images.node
       },
       {
         tech: 'MySQL',
         description: 'É um sistema de gerenciamento de banco de dados relacional',
-        image: mysql
+        image: images.mysql
       },
       {
         tech: 'Heroku',
         description: 'Plataforma de nuvem para fazer deploy de softwares',
-        image: heroku
+        image: images.heroku
+      },
+      {
+        tech: 'TypeScript',
+        description: 'É um superset do JavaScript que adiciona tipagem estática à linguagem',
+        image: images.typescript
       }
     ],
 
     projects: [
       {
         name: 'Jogo de Trivia',
-        image: triviagame,
+        image: images.triviagame,
         description: 'É um projeto realizado em grupo em que fizemos um jogo de Trivia',
         github: 'https://github.com/RafaelMoura11/project-trivia',
         deploy: 'https://the-trivia-game.vercel.app/'
       },
       {
         name: 'App de Receitas',
-        image: recipeapp,
+        image: images.recipeapp,
         description: 'É um projeto realizado em grupo em que fizemos um App de Receitas',
         github: 'https://github.com/RafaelMoura11/recipe-app',
         deploy: 'https://recipe-app-ecru.vercel.app/'
