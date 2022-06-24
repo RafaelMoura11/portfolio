@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="card">
+    <div className="card animate__animated animate__fadeIn">
       <img id="card-img" src={ project.image } alt={ project.name } />
 
       <div className="card-body">

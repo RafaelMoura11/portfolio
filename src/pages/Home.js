@@ -7,9 +7,9 @@ export default function Home (){
     <div id="home">
       <Header />
       <main id="main-content-home">
-        <h1>Rafael Moura</h1>
-        <h3>Desenvolvedor Web FullStack</h3>
-        <h5>Estou aqui para aprender</h5>
+        <h1 className="animate__animated animate__bounceInDown">Rafael Moura</h1>
+        <h3 className="animate__animated animate__bounceInDown">Desenvolvedor Web FullStack</h3>
+        <h5 className="animate__animated animate__bounceInDown">Estou aqui para aprender</h5>
       </main>
       <Footer />
     </div>
