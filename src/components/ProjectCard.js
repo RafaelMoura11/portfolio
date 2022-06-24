@@ -12,7 +12,7 @@ export default function ProjectCard({ project }) {
 
       <div className="project-card-button">
         <a href={ project.github } className="btn btn-primary" target="_blank" rel="noreferrer">GitHub</a>
-        <a href={ project.deploy } className="btn btn-primary" target="_blank" rel="noreferrer">Site</a>
+        { project.deploy && <a href={ project.deploy } className="btn btn-primary" target="_blank" rel="noreferrer">Site</a> }
       </div>
     </div>
   )

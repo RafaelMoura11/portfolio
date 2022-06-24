@@ -78,6 +78,11 @@ const MY_DATA = {
         tech: 'TypeScript',
         description: 'É um superset do JavaScript que adiciona tipagem estática à linguagem',
         image: images.typescript
+      },
+      {
+        tech: 'MongoDB',
+        description: 'O MongoDB é um Banco de Dados não relacional',
+        image: 'https://www.tekskills.in/img/services-home/mongodb-logo.png'
       }
     ],
 
@@ -95,6 +100,12 @@ const MY_DATA = {
         description: 'É um projeto realizado em grupo em que fizemos um App de Receitas',
         github: 'https://github.com/RafaelMoura11/recipe-app',
         deploy: 'https://recipe-app-ecru.vercel.app/'
+      },
+      {
+        name: 'TFC',
+        image: images.tfc,
+        description: 'O TFC é um projeto de uma tabela de times de futebol',
+        github: 'https://github.com/RafaelMoura11/TFC',
       }
     ]
   }

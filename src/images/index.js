@@ -14,6 +14,7 @@ import node from './node.png'
 import mysql from './mysql.png'
 import heroku from './heroku.png'
 import typescript from './typescript.png'
+import tfc from './tfc.png';
 
 const images = {
   javascript,
@@ -31,7 +32,8 @@ const images = {
   node,
   mysql,
   heroku,
-  typescript
+  typescript,
+  tfc,
 }
 
 export default images;
