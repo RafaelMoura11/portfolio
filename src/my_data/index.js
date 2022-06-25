@@ -82,7 +82,7 @@ const MY_DATA = {
       {
         tech: 'MongoDB',
         description: 'O MongoDB é um Banco de Dados não relacional',
-        image: 'https://www.tekskills.in/img/services-home/mongodb-logo.png'
+        image: images.mongodb
       }
     ],
 
